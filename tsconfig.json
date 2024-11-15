@@ -14,12 +14,12 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx",
-    "baseUrl": "./src",
+    "jsx": "react-jsx",  // React 17+ JSX transform
+    "baseUrl": "./src",  // Assuming your TypeScript files are in 'src'
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"]  // Assuming you want to use path aliases
     }
   },
-  "include": ["src"],
+  "include": ["src"],  // Make sure this includes the correct source folder
   "references": [{ "path": "./tsconfig.node.json" }]
 }

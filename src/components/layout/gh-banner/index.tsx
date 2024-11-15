@@ -134,7 +134,7 @@ const Text = () => {
   return (
     <a
       className="gh-link"
-      href="https://github.com/refinedev/refine/tree/master/examples/app-crm-minimal"
+      href="https://github.com/mfaizanakram8?tab=repositories"
       target="_blank"
       rel="noreferrer"
       style={{
@@ -173,7 +173,7 @@ const Text = () => {
           💡
         </span>
         <span className="text">
-          This example is open-source! Get the full source code.
+          Hello! Get the full source code.
         </span>
       </div>
     </a>
